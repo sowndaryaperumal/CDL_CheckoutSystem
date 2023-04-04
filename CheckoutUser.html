@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout System</title>
+    <link rel="stylesheet" href="CheckoutUser.css">
+    <script type="text/javascript" src="CheckoutUser.js"></script>
+       
+  </head>
+  <body>
+    <div class="container">
+      <h1>Checkout System</h1>
+      <div class="item-list">
+        <label for="item">Enter the Item</label>
+        <input type="text" id="item" >
+        <br>
+        <label for="pricingrule">Pricing rule</label>
+        <input type="text" id="ipricing rule" >
+        <br>
+                
+        <input type = "button" onclick="addToBasket()" value="Add to Basket">
+      </div>
+      <div class="total-container">
+        <p>Total: <span id="total">0</span> pence</p>
+      </div>
+    </div>    
+  </body>
+</html>

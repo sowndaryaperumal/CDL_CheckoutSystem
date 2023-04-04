@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.item-list {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 50px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.total-container {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
